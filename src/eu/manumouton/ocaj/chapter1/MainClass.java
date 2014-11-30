@@ -1,4 +1,4 @@
-package eu.manumouton.ocaj;
+package eu.manumouton.ocaj.chapter1;
 
 import java.util.ArrayList;
 import java.io.*;

@@ -1,5 +1,7 @@
 Chapter 1 : Packaging, compiling and interpreting Java code
 
+1. Packaging
+
 package com.ocaj.exam.tutorial;
 
 package statement attributes:
@@ -21,3 +23,33 @@ Package used for the certification (need to know bacic functionalities of):
 package com.ocaj.exam.tutorial;
 
 import java.io.*;
+
+import statement attributes:
+- >= Java 5, static import
+
+//TODO
+- compare 1.4.2, 5 & 7 java.util packages
+- review the above mentioned package Java 7 API
+
+2. Java class structure
+
+//TODO
+- Readings: "How to write unmaintainable code", Roedy Green /
+"The Passionate programmer, creating a remarkable carreer in software development", Chad Fowler
+
+2.1. Java naming conventions
+
+- Use Camel case
+
+Elements:
+- Class: begins uppercase, continues camel; is a noun; e.g. SpaceShip
+- Interface: begins uppercqse, continues camel; is an adjective (capability) or a noun; e.g. Dockable
+- Method: begins lowercase, continues camel; is a verb, may include adjective or noun; e.g. orbit
+- Instance and static variables: begins lowercase, continues camel; is a noun; e.g. moon
+- Parameters and local variables: begins lowercase, continues camel; single words, acronyms or abbreviations;
+e.g. i
+- Generic type parameters: single uppercase letter; the letter T is recommended; e.g. T
+- Constant: all uppercase letters; multiple words separated by underscores; e.g. LEAGUE
+- Enumeration: begins lowercase, continues camel; the set of objects should be uppercase; is a noun;
+e.g. enum Occupation{ MANNED, SEMI_MANNED, UNMANNED }
+- Package: all lowercase letters; public package should be the reversed domain name of org; e.g. eu.manumouton.ocaj
