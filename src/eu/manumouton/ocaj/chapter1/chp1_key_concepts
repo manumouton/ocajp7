@@ -1,0 +1,23 @@
+Chapter 1 : Packaging, compiling and interpreting Java code
+
+package com.ocaj.exam.tutorial;
+
+package statement attributes:
+- optional
+- one per source file maximum
+- standard naming convention = using reverse domain name, use lowercase chars delimited with underscores
+to separate words in the package names
+- package names equates to directory structure, if not class unusable
+- java.* and javax.* are reserved
+
+Package used for the certification (need to know bacic functionalities of):
+- Java Abstract Window Toolkit API (java.awt)
+- Java Swing API (javax.swing)
+- Java Basic I/O API (java.io)
+- Java Networking API (java.net)
+- Java Utilities API (java.util)
+- core Java Language API (java.lang)
+
+package com.ocaj.exam.tutorial;
+
+import java.io.*;
