@@ -1,0 +1,15 @@
+1. A => OK
+2. D => OK
+3. B => OK
+4. B, C => OK
+5. B, C => OK
+6. C => OK
+7. C => OK
+8. B => OK
+9. B => OK
+10. A ou D ??? puisque l'interface sera implémentée, donc le default suffit... => OK
+11. B => OK
+12. B => OK
+13. D => OK
+14. B => OK
+15. A => OK

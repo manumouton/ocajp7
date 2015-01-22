@@ -1,0 +1,47 @@
+Chapter 2: Programming with java statements
+
+expression statements = evaluation of expressions
+conditional statements = give the flow of control when a decision needs to be made
+iteration statements = loops
+transfer of control statements = mean of stopping or interrupting the normal flow of control
+
+1. Statements
+break statement: exit the body of a switch or loop
+case statement: part of switch
+continue statement: terminate the current iteration of a do while, while or for loop and continue with the next iteration
+while statement: iteration based on condition
+do-while statement: iteration based on condition, body of do while executed at least once (the do)
+empty statement: single semi colon
+expression statements: used to evaluate expressions;
+    - assignement
+    - pre increment
+    - pre decrement
+    - post increment
+    - post decrement
+    - method invocation
+    - object creation
+for loop statements: used for iteration; init; expression; update
+enhanced for loop statement: used for iteration through iterable object or array
+if statement: used for the conditional execution of statements
+if then statement: used for the conditional execution of statements by providing multiple conditions
+if then else statement: used for the conditional execution of statements by providing multiple conditions and a fall
+through when no conditions met
+return statement: exit a method and returns a specific value
+switch statement: branching code based on conditions
+
+2. Assignement statements
+- ends with a semi colon => variable = value;
+- assign a value to a variable
+
+3. Conditional statements
+
+- if: if, else (optional)
+- if-then: if, else if, else if (optional)
+- if-then-else: if, else if, else if (optional), else
+=> all above three with a boolean expression to be evaluated
+- switch: expression evaluate in byte, short, int or char or Enumerations or String; default is optional and could
+be placed anywhere (before, in, after the case statements). Range statements are not allowed in case
+
+Unboxing is the automatic production of its primitive value in case where it is needed ex: Boolean to boolean
+
+When two case statements within the same switch statement have the same value then compiler error

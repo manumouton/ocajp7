@@ -1,0 +1,10 @@
+1. D : ok
+2. B : ok
+3. A & C : ok
+4. C : ok
+5. A, B, C : ok
+6. E : ko => F
+7. A : ok
+8. A, B, C, D : ko => A, B, C
+9. B : ok
+10. B : ok
