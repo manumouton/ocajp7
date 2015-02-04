@@ -1,0 +1,15 @@
+1. A, B, D => OK
+2. C => OK
+3. A => OK
+4. D => OK
+5. C => OK
+6. C => OK
+7. A => OK
+8. A => OK
+9. C => OK
+10. B => OK
+11. A => OK
+12. A => KO, C => OK
+13. A => OK
+14. B => OK
+15. B, D => OK
