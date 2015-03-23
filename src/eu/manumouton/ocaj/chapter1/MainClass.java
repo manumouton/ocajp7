@@ -17,5 +17,7 @@ public class MainClass {
 
         System.out.println(prLanguagesList);
 
+        float f = 3;
+
     }
 }
